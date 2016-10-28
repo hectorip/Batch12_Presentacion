@@ -1,0 +1,27 @@
+*{ /* todos los elementos */
+  font-family: sans-serif;
+  color: salmon;
+}
+/* Regla de CSS */
+/* Cascading style sheets */
+h1{
+  color: blue;
+  color: #FFFFFF; /* 2 -> rojo, 2-> verde */
+  color: #666;
+  color: rgb(100, 0, 255);
+  color: rgba(100, 0, 255, 0.8);
+}
+
+#nombre{
+  font-style: italic;
+  color: magenta;
+}
+
+.cosas_azules{
+  color: lightblue;
+}
+
+.grande{
+  font-size: 3em;
+  font-weight: 900;
+}
