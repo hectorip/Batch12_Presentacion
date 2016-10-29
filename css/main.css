@@ -1,6 +1,5 @@
 *{ /* todos los elementos */
   font-family: sans-serif;
-  color: salmon;
 }
 /* Regla de CSS */
 /* Cascading style sheets */
@@ -24,4 +23,50 @@ h1{
 .grande{
   font-size: 3em;
   font-weight: 900;
+}
+/* Selectores simples */
+
+#nombre:hover{
+  color: limegreen;
+}
+
+a:visited{
+  color: black;
+}
+
+li:first-child{
+  text-decoration:line-through;
+}
+
+/* */
+li:after{
+  content: "*";
+}
+li:before{
+  content: "+";
+}
+
+/* Selectores compuestos // descendiente, hijo, sibling, combinacion de selectores simples */
+
+/* pseduselectores de CSS */
+.importante{
+  color: green;
+}
+
+#descripcion .importante{
+  color: blue;
+}
+#descripcion > .importante { }
+#decripcion + .importante { }
+
+h1 + h2 {
+  font-weight: 100;
+  text-decoration: underline;
+}
+
+p, a, li {
+  font-family: monospace;
+  font-family: monospace;
+  font-family: monospace;
+  font-family: monospace;
 }
