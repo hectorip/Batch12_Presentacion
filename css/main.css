@@ -69,3 +69,7 @@ p, a, li {
   font-family: monospace;
   font-family: monospace;
 }
+
+#avatar{
+  border-radius: 50%;
+}
